@@ -4,6 +4,7 @@ Bitcamp
 Hackathon at UMD 4/4/14
 
 public Statistics(ArrayList<Integer> myHand, ArrayList<Integer> dealerHand, ArrayList<Integer> deck) {
+
 	this.myHand = myHand;
 	this.dealerHand = dealerHand;
 	this.deck = deck;
@@ -15,4 +16,5 @@ public Statistics(ArrayList<Integer> myHand, ArrayList<Integer> dealerHand, Arra
 	for (int x = 0; x < deck.size(); x++) {
 		totalCards += deck.get(x);
 	}
+	
 }
