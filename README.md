@@ -3,6 +3,8 @@ Bitcamp
 
 Hackathon at UMD 4/4/14
 
+// Just testing this method, not actually for anything
+
 public Statistics(ArrayList<Integer> myHand, ArrayList<Integer> dealerHand, ArrayList<Integer> deck) {
 
 	this.myHand = myHand;
